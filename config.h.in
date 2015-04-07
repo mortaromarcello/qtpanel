@@ -1,0 +1,8 @@
+// The configured options and settings for qtpanel
+
+#define qtpanel_TRANSLATIONS_TARGET	"@qtpanel_TRANSLATIONS_TARGET@"
+#define qtpanel_IMAGES_TARGET		"@qtpanel_IMAGES_TARGET@"
+#define qtpanel_SOUNDS_TARGET		"@qtpanel_SOUNDS_TARGET@"
+#define qtpanel_ORGANIZATION		"@qtpanel_ORGANIZATION@"
+#define qtpanel_APPLICATION			"@qtpanel_APPLICATION@"
+#define qtpanel_APPLETS_FILE_CONFIG	"@qtpanel_APPLETS_FILE_CONFIG@"

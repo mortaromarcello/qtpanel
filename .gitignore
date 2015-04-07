@@ -1,0 +1,4 @@
+# ignore objects and archives
+*.[oa]
+build/*
+

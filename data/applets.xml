@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE applets>
+<applets version="1.0">
+    <applet>
+	<type>ApplicationsMenuApplet</type>
+	<config>
+	    <menu-icon>start-here-mandriva-symbolic</menu-icon>
+	</config>
+	</applet>
+    <applet>
+	<type>LauncherApplet</type>
+	<config>
+	    <instance>1</instance>
+	    <icon>iceweasel</icon>
+	    <command>iceweasel</command>
+	    <launcher>Browser</launcher>
+	</config>
+    </applet>
+    <applet><type>DockApplet</type></applet>
+    <applet><type>VolumeApplet</type>
+	<config>
+	    <mixer>alsamixer</mixer>
+	</config>
+    </applet>
+    <applet><type>TrayApplet</type></applet>
+    <applet><type>ClockApplet</type></applet>
+    <applet>
+	<type>LauncherApplet</type>
+	<config>
+	    <instance>2</instance>
+	    <icon>gnome-session-halt</icon>
+	    <command>gksudo halt</command>
+	    <launcher>Halt</launcher>
+	</config>
+    </applet>
+</applets>

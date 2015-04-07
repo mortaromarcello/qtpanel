@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AppletApplicationsMenuSettings</class>
+ <widget class="QDialog" name="AppletApplicationsMenuSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>325</width>
+    <height>392</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Options</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QFormLayout" name="formLayout">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_menu_icon">
+         <property name="text">
+          <string>Menu icon:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="menu_icon"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_opacity">
+         <property name="text">
+          <string>Opacity:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QDoubleSpinBox" name="opacity"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_background_menu_color">
+         <property name="text">
+          <string>Background menu color:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="background_menu_color"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_text_menu_color">
+         <property name="text">
+          <string>Text menu color:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QComboBox" name="text_menu_color"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_background_selected_menu_color">
+         <property name="text">
+          <string>Backgound selected menu color:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QComboBox" name="selected_menu_color"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_menu_border_radius_top_left">
+         <property name="text">
+          <string>Radius menu border top left:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QSpinBox" name="menu_border_radius_top_left">
+         <property name="maximum">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="label_menu_border_width">
+         <property name="text">
+          <string>Border menu width:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QSpinBox" name="menu_border_width">
+         <property name="maximum">
+          <number>10</number>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QComboBox" name="menu_border_color"/>
+       </item>
+       <item row="11" column="0">
+        <widget class="QLabel" name="label_border_menu_color">
+         <property name="text">
+          <string>Border menu color:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="label_menu_border_radius_top_right">
+         <property name="text">
+          <string>Radius menu border top right:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QSpinBox" name="menu_border_radius_top_right">
+         <property name="maximum">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="label_menu_border_radius_bottom_left">
+         <property name="text">
+          <string>Radius menu border bottom left:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QSpinBox" name="menu_border_radius_bottom_left">
+         <property name="maximum">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="label_menu_border_radius_bottom_right">
+         <property name="text">
+          <string>Radius menu border bottom right:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QSpinBox" name="menu_border_radius_bottom_right">
+         <property name="maximum">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_selected_menu_color">
+         <property name="text">
+          <string>Selected menu color:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QComboBox" name="background_selected_menu_color"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>menu_icon</tabstop>
+  <tabstop>opacity</tabstop>
+  <tabstop>background_menu_color</tabstop>
+  <tabstop>text_menu_color</tabstop>
+  <tabstop>selected_menu_color</tabstop>
+  <tabstop>background_selected_menu_color</tabstop>
+  <tabstop>menu_border_radius_top_left</tabstop>
+  <tabstop>menu_border_radius_top_right</tabstop>
+  <tabstop>menu_border_radius_bottom_left</tabstop>
+  <tabstop>menu_border_radius_bottom_right</tabstop>
+  <tabstop>menu_border_width</tabstop>
+  <tabstop>menu_border_color</tabstop>
+  <tabstop>buttonBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>AppletApplicationsMenuSettings</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>258</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>AppletApplicationsMenuSettings</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>284</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

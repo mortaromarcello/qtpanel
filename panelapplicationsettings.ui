@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PanelApplicationSettings</class>
+ <widget class="QDialog" name="PanelApplicationSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>431</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Options</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="advise">
+       <property name="text">
+        <string>Some options will be operational at the next reboot of the panel.</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="1" column="1">
+        <widget class="QSpinBox" name="fontSize"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="fontItalic">
+         <property name="text">
+          <string>Italic</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="colorApplicationLabel">
+         <property name="text">
+          <string>Color Application:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QComboBox" name="verticalPosition">
+         <item>
+          <property name="text">
+           <string>Top</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Bottom</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="12" column="1">
+        <widget class="QToolButton" name="highlight_toolbutton">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="1">
+        <widget class="QDoubleSpinBox" name="radiusinc_doublespinbox"/>
+       </item>
+       <item row="13" column="0">
+        <widget class="QLabel" name="label_radiusinc">
+         <property name="text">
+          <string>Radius inc:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_qtstyle">
+         <property name="text">
+          <string>Qt Style:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_gtk3Theme">
+         <property name="text">
+          <string>Gtk3 Theme:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QComboBox" name="gtk3Theme"/>
+       </item>
+       <item row="4" column="1">
+        <widget class="QComboBox" name="qtStyle"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_gtk2Theme">
+         <property name="text">
+          <string>Gtk2 Theme:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QComboBox" name="gtk2Theme"/>
+       </item>
+       <item row="9" column="1">
+        <widget class="QComboBox" name="colorApplication"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QCheckBox" name="fontBold">
+         <property name="text">
+          <string>Bold</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="fontLabel">
+         <property name="text">
+          <string>Font:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="verticalPositionLabel">
+         <property name="text">
+          <string>Vertical position:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="0">
+        <widget class="QLabel" name="label_highlight">
+         <property name="text">
+          <string>HighLight color applet:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QFontComboBox" name="fontName"/>
+       </item>
+       <item row="7" column="1">
+        <widget class="QComboBox" name="iconThemeName"/>
+       </item>
+       <item row="11" column="0">
+        <widget class="QCheckBox" name="compositeManager">
+         <property name="text">
+          <string>Composite manager</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QSpinBox" name="trasparency"/>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="trasparencyLabel">
+         <property name="text">
+          <string>Trasparency:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="iconThemeLabel">
+         <property name="text">
+          <string>Icon theme:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="fontSizeLabel">
+         <property name="text">
+          <string>Font size:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QCheckBox" name="applyFontToGtk">
+         <property name="text">
+          <string>Apply font to Gtk settings</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>fontName</tabstop>
+  <tabstop>fontSize</tabstop>
+  <tabstop>fontItalic</tabstop>
+  <tabstop>fontBold</tabstop>
+  <tabstop>qtStyle</tabstop>
+  <tabstop>gtk2Theme</tabstop>
+  <tabstop>gtk3Theme</tabstop>
+  <tabstop>iconThemeName</tabstop>
+  <tabstop>verticalPosition</tabstop>
+  <tabstop>colorApplication</tabstop>
+  <tabstop>trasparency</tabstop>
+  <tabstop>compositeManager</tabstop>
+  <tabstop>highlight_toolbutton</tabstop>
+  <tabstop>radiusinc_doublespinbox</tabstop>
+  <tabstop>buttonBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>PanelApplicationSettings</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>258</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>PanelApplicationSettings</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>326</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>compositeManager</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>trasparency</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>106</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>200</x>
+     <y>231</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AppletSessionSettings</class>
+ <widget class="QDialog" name="AppletSessionSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>555</width>
+    <height>404</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Options</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="10" column="3">
+    <widget class="QComboBox" name="color_selected_text"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_icon_reboot">
+     <property name="text">
+      <string>Icon reboot:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QPushButton" name="icon_session">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="icon_halt">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QSpinBox" name="radius_border_top_right">
+     <property name="maximum">
+      <number>24</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLabel" name="label_radius_border_top_right">
+     <property name="text">
+      <string>Radius border top right:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_icon_session">
+     <property name="text">
+      <string>Icon session:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QSpinBox" name="radius_border_bottom_left">
+     <property name="maximum">
+      <number>24</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QLabel" name="label_radius_border_bottom_right">
+     <property name="text">
+      <string>Radius border bottom right:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_command_halt">
+     <property name="text">
+      <string>Command halt:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_icon_logout">
+     <property name="text">
+      <string>Icon logout:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="command_halt"/>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLabel" name="label_radius_border_top_left">
+     <property name="text">
+      <string>Radius border top left:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <widget class="QSpinBox" name="radius_border_bottom_right">
+     <property name="maximum">
+      <number>24</number>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="2">
+    <widget class="QLabel" name="label_color_selected_background">
+     <property name="text">
+      <string>Color selected background:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="3">
+    <widget class="QComboBox" name="color_selected_background"/>
+   </item>
+   <item row="4" column="2">
+    <widget class="QLabel" name="label_height_border">
+     <property name="text">
+      <string>Height border:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <widget class="QPushButton" name="icon_suspend">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="2">
+    <widget class="QLabel" name="label_color_border">
+     <property name="text">
+      <string>Color border:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="3">
+    <widget class="QComboBox" name="color_border"/>
+   </item>
+   <item row="8" column="2">
+    <widget class="QLabel" name="label_color_text">
+     <property name="text">
+      <string>Color text:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="3">
+    <widget class="QComboBox" name="color_background"/>
+   </item>
+   <item row="10" column="2">
+    <widget class="QLabel" name="label_color_selected_text">
+     <property name="text">
+      <string>Color selected text:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="2">
+    <widget class="QLabel" name="label_color_background">
+     <property name="text">
+      <string>Color background:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="3">
+    <widget class="QComboBox" name="color_text"/>
+   </item>
+   <item row="14" column="1" colspan="2" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>27</height>
+      </size>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_icon_halt">
+     <property name="text">
+      <string>Icon halt:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="command_logout"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_command_logout">
+     <property name="text">
+      <string>Command logout:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLabel" name="label_radius_border_bottom_left">
+     <property name="text">
+      <string>Radius border bottom left:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="icon_logout">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QSpinBox" name="height_border">
+     <property name="maximum">
+      <number>10</number>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QSpinBox" name="radius_border_top_left">
+     <property name="maximum">
+      <number>24</number>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QPushButton" name="icon_reboot">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="label_command_suspend">
+     <property name="text">
+      <string>Command suspend:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLabel" name="label_icon_suspend">
+     <property name="text">
+      <string>Icon suspend:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="1">
+    <widget class="QLineEdit" name="command_suspend"/>
+   </item>
+   <item row="10" column="1">
+    <widget class="QLineEdit" name="command_hibernate"/>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="label_command_hibernate">
+     <property name="text">
+      <string>Command hibernate:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="QPushButton" name="icon_hibernate">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="label_icon_hibernate">
+     <property name="text">
+      <string>Icon hibernate:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLineEdit" name="command_reboot"/>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="label_command_reboot">
+     <property name="text">
+      <string>Command reboot:</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>icon_session</tabstop>
+  <tabstop>icon_logout</tabstop>
+  <tabstop>command_logout</tabstop>
+  <tabstop>icon_halt</tabstop>
+  <tabstop>command_halt</tabstop>
+  <tabstop>icon_reboot</tabstop>
+  <tabstop>radius_border_top_left</tabstop>
+  <tabstop>radius_border_top_right</tabstop>
+  <tabstop>radius_border_bottom_left</tabstop>
+  <tabstop>radius_border_bottom_right</tabstop>
+  <tabstop>height_border</tabstop>
+  <tabstop>color_text</tabstop>
+  <tabstop>color_background</tabstop>
+  <tabstop>color_selected_text</tabstop>
+  <tabstop>color_selected_background</tabstop>
+  <tabstop>color_border</tabstop>
+  <tabstop>buttonBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>AppletSessionSettings</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>304</x>
+     <y>381</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>209</x>
+     <y>192</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>AppletSessionSettings</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>322</x>
+     <y>381</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>208</x>
+     <y>147</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
